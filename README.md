@@ -1,4 +1,4 @@
-Use exploratory data analysis techniques to investigate a dataset about wines to determine which physical attributes of a wine most affect the quality of the wine. Attributes such as alcohol or sulfur content, acidity, residual sugars, density etc.
+Use exploratory data analysis techniques to investigate a dataset about wines to determine which attributes most affect the quality of the wine. Attributes such as alcohol or sulfur content, acidity, residual sugars, density etc.
 
 The project is divided into the following sections:
 1. Abstract
