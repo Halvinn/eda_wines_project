@@ -1,7 +1,8 @@
 ---
-title: "White Wine Quality"
+title: "Wine Quality"
 author: "Onesmas Ngugi"
 output:
+  pdf_document: default
   html_document: default
 ---
 
@@ -24,13 +25,14 @@ wines <- read.csv('wineQualityWhites.csv')
 ```
 
 ## Abstract
-As most wine drinkers, wine enthusiasts or even wine amateurs know, wine quality
-can vary greatly, both objectively and subjectively. Some wines can be 
-considered to be of bad quality by a large percentage of people who drink them, 
-while other wines can have more varying quality ratings. This would seem to 
-suggest that wine quality, as rated by wine experts in this data set, can be 
-partially explained by different attributes of the wine. I wanted to explore 
-what attributes affect wine quality.
+Wine quality is usually very subjective and can vary greatly among drinkers. 
+However, some wines can have high average quality ratings from multiple 
+different drinkers and wine experts. This would seem to suggest that wine 
+quality, rated by wine experts in this dataset, can be partially explained by 
+different physical attributes, such as alcohol content, acidity, e.t.c. of the 
+wine. I wanted to explore which attributes affect wine quality the most.
+Regression analysis can be used to estimate relationships between wine quality 
+and different attributes of the wine. 
 
 ## Univariate Plots Section
 
